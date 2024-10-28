@@ -1,0 +1,33 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <title>Eduardo Zuniga - Assignment 01</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <div class="container">
+      <div class="scoreboard">
+        <div class="player-list" id="playersList"></div>
+      </div>
+      <div class="game-board" id="gameBoard">
+        <div class="inputPlayer" id="inputPlayer">
+          <input type="text" id="playerName" placeholder="Add Player" />
+          <button id="addPlayer">Join</button>
+        </div>
+        <div class="game-options">
+          <button id="startGame" disabled class="button-opt">Start Game</button>
+          <button id="switchPlayer" disabled class="button-opt">
+            Switch Player
+          </button>
+          <button id="scorePoints" disabled class="button-opt">
+            Score Points
+          </button>
+        </div>
+      </div>
+    </div>
+
+    <script src="script.js"></script>
+  </body>
+</html>

@@ -1,0 +1,91 @@
+* {
+    box-sizing: border-box;
+  }
+  body {
+    font-family: Arial, sans-serif;
+    height: 100vh;
+    margin: 0;
+    font-size: 24px;
+  }
+  
+.container {
+    width: 90%;
+    height: 100%;
+    background-color: #222;
+    border-radius: 15px;
+    overflow: hidden;
+    margin: 0 auto; 
+    display: flex;
+    flex-direction: column;
+}
+  
+  .game-board {
+    padding: 20px;
+    height: 100%;
+    color: #ccc;
+    background-color: #333;
+    display: flex;
+    flex-direction: column;
+    gap: 20px;
+  }
+
+  .game-options {
+    display: flex;
+    flex-direction: column;
+    gap: 10px;
+  }
+  
+  .scoreboard {
+    background-color: #9d67a2;
+    color: whitesmoke;
+    padding: 20px;
+    color: #ccc;
+    height: 80px;
+  }
+ .player-list{
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: row;
+ }
+
+ .player {
+    opacity: 0.5;
+}
+.player-active {
+    opacity: 1;
+    color: #fff;
+}
+
+.button-opt {
+    padding: 10px;
+    border: none;
+    background-color: transparent;
+    color: white;
+    font-size: 20px;
+    padding: 0;
+    font-weight: bold;
+    text-align: left;
+    cursor: pointer;
+  }
+  
+  button:disabled {
+    background-color: transparent;
+    color: #666;
+    font-weight: normal;
+    border: none;
+    padding: 0;
+    cursor: not-allowed;
+  }
+
+  .game-board-active {
+    background-image: url('images/bg_running.jpg'); 
+    background-size: cover;
+    background-position: center;
+  }
+  
+
+  
+
+
+  
